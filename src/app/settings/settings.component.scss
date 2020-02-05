@@ -1,0 +1,21 @@
+@mixin font-small {
+    font-size: 12px;
+    line-height: 15px;
+  }
+form{
+   > div{
+        margin-bottom: 32px;
+        p {
+            @include font-small;
+        }
+    }
+}
+.mat-form-field{
+    width:100%;
+    p {
+        @include font-small;
+    }
+}
+.mat-radio-button{
+    margin-right: 16px;
+}

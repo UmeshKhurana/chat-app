@@ -1,0 +1,23 @@
+.message-control{
+    align-items: center;
+    bottom: 0;
+    display: flex;
+    left: 4px;
+    position: fixed;
+    right: 4px;
+    z-index: 1;
+}
+.mat-form-field{
+    width:100%;
+    background: #FFF;
+    border-radius: 16px;
+    padding: 4px 24px;
+    margin: 8px;
+    opacity: 0.6;
+} 
+
+::ng-deep .mat-form-field-appearance-legacy{
+    .mat-form-field-infix{
+        padding: 0;
+    }
+} 

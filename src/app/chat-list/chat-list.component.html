@@ -1,0 +1,12 @@
+<div #scrollMe class="chat-section">
+  <div class="commentcontainer" *ngFor="let message of messages" [ngClass]="{'align-right': message.user===userName}">
+    <div class="metadata">
+      <span *ngIf=" message.user!==userName">{{message.user}},</span>
+      <span *ngIf="clock === '12'">{{message.time | date:'hh:mm a'}}</span>
+      <span *ngIf="clock === '24'">{{message.time | date:'HH:mm'}}</span> </div>
+    <p class="commentbox">
+      <span style="white-space:pre" [innerHTML]="message.text">
+      </span>
+    </p>
+  </div>
+</div>

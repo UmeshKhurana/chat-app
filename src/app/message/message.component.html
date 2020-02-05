@@ -1,0 +1,10 @@
+<form class="message-control" [formGroup]="messageFormGroup">
+  <mat-form-field color="accent">
+    <mat-label></mat-label>
+    <textarea formControlName="message" matInput placeholder="Write a message" (keydown)="keyPressEvent($event)"
+      (keyup)="keyUpEvent()"></textarea>
+  </mat-form-field>
+  <button [disabled]="isFormInvalid()" mat-icon-button color="accent" (click)="sendMessage()" aria-label="Send icon">
+    <mat-icon>send</mat-icon>
+  </button>
+</form>
