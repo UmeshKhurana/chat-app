@@ -40,6 +40,8 @@ export class SettingsComponent implements OnInit {
     this.localStorage.updateRecord('clock', defaultSettings.defaultClock);
     this.localStorage.updateRecord('messageBehaviour', defaultSettings.defaultMessageOption);
     this.localStorage.updateRecord('language', defaultSettings.defaultLanguage);
+    this.getLocalSetting();
+    this.applyTheme('theme');
   }
   private applyTheme(attr) {
     let selectedTheme = this.options.controls[attr].value;
