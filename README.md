@@ -30,7 +30,9 @@ LanguageSwitcher - dropdown menu allowing changing the language of the app (curr
 
 Reset button - resets all settings stored to local storage
 
+## Application View
 
+<img width="160" alt="Snag_1c2e6d01" src="https://user-images.githubusercontent.com/8798333/73885510-34ed7f80-4868-11ea-8ac3-60b859407094.png">       <img width="160" alt="Snag_1c2f749d" src="https://user-images.githubusercontent.com/8798333/73885606-5cdce300-4868-11ea-8b24-12baa5720908.png">       <img width="160" alt="Snag_1c2fbfa0" src="https://user-images.githubusercontent.com/8798333/73885629-6a926880-4868-11ea-9447-a0f6eec71635.png">       <img width="160" alt="Snag_1c2ff602" src="https://user-images.githubusercontent.com/8798333/73885642-7120e000-4868-11ea-9f2f-af6e30d18595.png">
 
 ## Development server
 
