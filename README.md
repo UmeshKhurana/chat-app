@@ -58,17 +58,23 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 Please ensure NodeJS installed in your local environment.To run the application in your local environment please follow the below steps:
 
-From the project folder, execute the following commands:
+Go to server folder in the project folder, execute the following command:
 
-To install dependencies:
+To install server dependencies:
 
   `npm i`
 
-To run the client app:
+From the project folder, execute the following commands:
+
+To install client dependencies:
+
+  `npm i`
+
+To run the client application:
 
   `npm start`
 
-To run the server app:
+To run the server application:
 
   `node server/index.js`
  
